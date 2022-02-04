@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/styles.css">
   <link rel="shortcut icon" href="img/amazon.ico" type="image/x-icon">
   <title>Clone Amazon</title>
 </head>
+
 <body>
   <header>
     <div class="grid text-white">
@@ -23,7 +27,8 @@
         </div>
         <div class="flex-grow order-2 w-full pt-1 md:order-none md:w-auto md:ml-3 mr:0">
           <form action="" class="flex">
-            <select name="" id="" class="hidden p-2 text-xs text-gray-700 bg-gray-100 border-r border-gray-500 rounded-tl rounded-bl md:block hover:bg-gray-300">
+            <select name="" id=""
+              class="hidden p-2 text-xs text-gray-700 bg-gray-100 border-r border-gray-500 rounded-tl rounded-bl md:block hover:bg-gray-300">
               <option value="">Livros</option>
             </select>
             <input class="flex-grow p-2 rounded-l md:rounded-none" type="text" name="" id="">
@@ -45,9 +50,11 @@
           <p class="font-extrabold">Prime <i class="fas fa-chevron-down"></i></p>
         </div>
         <!-- CARRINHO -->
-        <div class="absolute right-0 order-1 p-2 mr-2 border border-transparent rounded-sm top-1 hover:border-white md:mr-0 md:t-0 md:relative md:order-none md:flex">
+        <div
+          class="absolute right-0 order-1 p-2 mr-2 border border-transparent rounded-sm top-1 hover:border-white md:mr-0 md:t-0 md:relative md:order-none md:flex">
           <i class="flex text-2xl fas fa-shopping-cart md:mr-2"></i>
-          <span class="absolute top-0 left-0 w-6 h-6 ml-4 -mt-1 text-base text-center rounded-full bold text-gold-200 bg-darkblue-600">0</span>
+          <span
+            class="absolute top-0 left-0 w-6 h-6 ml-4 -mt-1 text-base text-center rounded-full bold text-gold-200 bg-darkblue-600">0</span>
           <span class="hidden text-xs font-extrabold md:flex">Carrinho</span>
         </div>
         <!-- FIM CARRINHO -->
@@ -214,11 +221,37 @@
         </ul>
       </div>
       <!-- CONTEÚDO -->
-      <div class="h-screen col-span-5 bg-red-600">
-
+      <div class="md:col-span-5 col-span-6 p-2">
+        <div class="flex flex-col"></div>
+        <!-- TITULO CATEGORIA -->
+        <div class="text-center">
+          <h2 class="text-2xl font-bold md:text-3xl md:font-normal">Loja de Livros</h2>
+          <ul class="flex flex-wrap md:flex-nowrap justify-center md:text-sm px-4 md:px-0 pb-2">
+            <li>
+              <a href="#" class="text-blue-600 underline hover:text-orange-650 px-1 border-r border-black">
+                Importados </a>
+              <a href="#" class="text-blue-600 underline hover:text-orange-650 px-1 border-r border-black">
+                Lançamentos </a>
+              <a href="#" class="text-blue-600 underline hover:text-orange-650 px-1 border-r border-black">
+                Universitarios </a>
+              <a href="#" class="text-blue-600 underline hover:text-orange-650 px-1 border-r border-black">
+                Didáticos e Escolares </a>
+              <a href="#" class="text-blue-600 underline hover:text-orange-650 px-1 border-r border-black">
+                HQ's e Mangás </a>
+              <a href="#" class="text-blue-600 underline hover:text-orange-650 px-1 border-r border-black">
+                Mais Vendidos </a>
+              <a href="#" class="text-blue-600 underline hover:text-orange-650 px-1 border-r border-black">
+                Livros Infantis </a>
+                <a href="#" class="text-blue-600 underline hover:text-orange-650 px-1">
+                  Indicações </a>
+            </li>
+          </ul>
+          <div class="h-2 border-b shadow-md"></div>
+        </div>
       </div>
     </div>
 
   </main>
 </body>
+
 </html>
